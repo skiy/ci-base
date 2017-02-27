@@ -1,16 +1,15 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 /**
- * Class MY_Config
- * @author  : Skiychan <dev@skiy.net>
- * @link    : https://www.zzzzy.com
- * @created : 2016/06/24
- * @modified:
- * @version : 0.0.1
+ * 
+ * File:   MY_Config.php
+ * Author: Skiychan <dev@skiy.net>
+ * Created: 2016/9/13
  */
 
 class MY_Config extends CI_Config {
 
+    public $_config_paths = array(APPPATH, ASSETS);
     /**
      * 重写site_url和base_url
      * MY_Config constructor.
