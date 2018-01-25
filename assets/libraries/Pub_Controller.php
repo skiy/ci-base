@@ -9,7 +9,7 @@
  * @version : 0.0.1
  */
 
-require APPPATH . '/libraries/REST_Controller.php';
+require ASSETS . 'libraries/REST_Controller.php';
 
 class Pub_Controller extends REST_Controller {
     private $_status_code = 200;

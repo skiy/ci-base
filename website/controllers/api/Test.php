@@ -9,7 +9,7 @@
  * @version : 0.0.1
  */
 
-require APPPATH . '/libraries/Pub_Controller.php';
+require ASSETS . 'libraries/Pub_Controller.php';
 
 class Test extends Pub_Controller {
     public function __construct() {

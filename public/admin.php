@@ -117,7 +117,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$application_folder = '../website';
+	$application_folder = '../admin';
 
 /*
  *---------------------------------------------------------------
@@ -227,7 +227,7 @@ switch (ENVIRONMENT)
  * -------------------------------------------------------------------
  */
 	// The name of THIS file
-	define('SELF', pathinfo(__DIR__, PATHINFO_BASENAME));
+	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
 
 	// Path to the system directory
 	define('BASEPATH', $system_path);
