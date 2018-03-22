@@ -8,11 +8,10 @@
  */
 
 switch($_SERVER["SERVER_ADDR"]) {
-    //现网
-    case "172.16.1.230":
-        define('ENVIRONMENT', 'production');
+    case "127.0.0.1":
+        define('ENVIRONMENT', 'development');
         break;
 
     default:
-        define('ENVIRONMENT', 'development');
+        define('ENVIRONMENT', 'production');
 }

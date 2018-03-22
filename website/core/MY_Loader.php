@@ -140,13 +140,4 @@ class MY_Loader extends CI_Loader {
         return $this;
     }
 
-    public function initialize() {
-        $this->_ci_autoloader();
-        // Autoload logics
-        if (isset($autoload['logic']))
-        {
-            $this->logic($autoload['logic']);
-        }
-
-    }
 }
