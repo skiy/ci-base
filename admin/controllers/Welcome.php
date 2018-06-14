@@ -14,6 +14,6 @@ class Welcome extends MY_Controller {
     }
 
     public function index() {
-        echo 'Index';
+        echo 'Admin';
     }
 }
