@@ -12,6 +12,9 @@ switch($_SERVER["SERVER_ADDR"]) {
         define('ENVIRONMENT', 'development');
         break;
 
-    default:
+    case "10.135.9.186": //环境
         define('ENVIRONMENT', 'production');
+
+    default:
+        define('ENVIRONMENT', 'development');
 }
