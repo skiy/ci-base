@@ -1,6 +1,6 @@
 CodeIgniter 3 Restful Api
 -------------------------
-Version: 3.1.6
+Version: 3.1.9
 
 ------
 ## Author
