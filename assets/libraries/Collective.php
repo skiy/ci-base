@@ -1,15 +1,14 @@
 <?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
 /**
  * 公共方法
- * Common.php
- * @author  : Skiychan <dev@skiy.net>
- * @link    : https://www.zzzzy.com
- * @created : 5/21/16
- * @modified:
- * @version : 0.0.1
+ * File:   Collective.php
+ * Author: Skiychan <dev@skiy.net>
+ * Created: 2016/9/12
  */
 
-class Common {
+class Collective {
 
     /**
      * 返回资源头格式
