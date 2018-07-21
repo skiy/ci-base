@@ -111,8 +111,9 @@ class Collective {
         $CI = & get_instance();
         $msg = '';
         if (is_numeric($flag)) {
-            $CI->load->language('return_code');
-            $msg = $CI->lang->line('error_'.$flag);
+            $CI->load->config('return_code');
+            $return_code = $CI->config->item('return_code');
+            $msg = $return_code['error_'.$flag] ?? '未知错误';
         }
 
         if (! empty($param_arr)) {

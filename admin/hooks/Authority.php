@@ -63,7 +63,7 @@ class Authority {
         }
 
         $_is_ajax = $this->_ci->input->is_ajax_request();
-        $_is_axios = ($this->_ci->input->method() == 'post') || ($this->input->raw_input_stream !== NULL);
+        $_is_axios = ($this->_ci->input->method() == 'post') || ($this->_ci->input->raw_input_stream !== '');
         if ($_is_ajax || $_is_axios) {
             Collective::response(-202);
             exit;
