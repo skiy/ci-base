@@ -2,7 +2,7 @@ CI-Base
 ------
 Codeiginter 3.x multiple entrances use the same asset data.
 
-**Version:** 3.1.10   
+**Version:** 3.1.11   
 
 English | [简体中文](./README_CN.md)    
 

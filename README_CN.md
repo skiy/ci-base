@@ -2,7 +2,7 @@ CI-Base
 ------
 Codeiginter 3.x 多个入口项目共享公共配置文件数据
 
-**Version:** 3.1.10   
+**Version:** 3.1.11   
 
 [English](./README.md) | 简体中文   
 
